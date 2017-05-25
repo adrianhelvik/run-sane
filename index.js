@@ -40,7 +40,7 @@ function run({ command, cwd, prefix }) {
       children.forEach(child => child.kill())
       process.exit()
     } else {
-      run.processes = run.processes.filter(p => p !== proc)
+      children = children.filter(p => p !== proc)
     }
   })
 
