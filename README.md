@@ -19,6 +19,8 @@ Example usage
 =============
 
 ```javascript
+// myscript.js
+
 const run = require('run-sane')
 
 run({
@@ -44,23 +46,17 @@ Example output
 ==============
 
 ```
+❯ node myscript.js
+
 yarn start v0.24.5
-$ node run
-[PHP server]:  [Thu May 25 08:05:43 2017] PHP Warning:  Module 'pdo_pgsql' already loaded in Unknown on line 0
-[PHP server]:
-
+[backend]:
 yarn start v0.24.5]:
-[javascript bundle]:
-
-[backend]:
-[backend]:  yarn start v0.24.5
-[backend]:
-
-$ webpack --watch ]:
 [javascript bundle]:
 
 $ node server.js
 [backend]:
+$ webpack --watch
+[javascript bundle]:
 [backend]:  Listening on *:1234
 [backend]:
 [javascript bundle]:
@@ -72,13 +68,13 @@ $ node server.js
 [javascript bundle]:
 [javascript bundle]:  Hash: 1d2622b8821f0561dd1b
 [javascript bundle]:  Version: webpack 2.6.0
-[javascript bundle]:  Time: 408ms
+[javascript bundle]:  Time: 360ms
 [javascript bundle]:      Asset     Size  Chunks             Chunk Names
 [javascript bundle]:  bundle.js  3.23 kB       0  [emitted]  main
 [javascript bundle]:     [0] ./src/index.js 80 bytes {0} [built]
 [javascript bundle]:
+[PHP server]:  [Thu May 25 08:18:39 2017] 127.0.0.1:52198 [200]: /
+[PHP server]:
+[PHP server]:  [Thu May 25 08:18:39 2017] 127.0.0.1:52199 [404]: /favicon.ico - No such file or directory
+[PHP server]:
 ```
-
-Contrib
-=======
-Feel free to send me pull requests!
